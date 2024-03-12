@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/orange"
+    tools:context=".LoginActivity">
+
+    <ImageView
+        android:id="@+id/imgAppLogo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:src="@drawable/foodrunnerlogo" />
+
+    <EditText
+        android:id="@+id/edMobileNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imgAppLogo"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="20dp"
+        android:background="@color/white"
+        android:backgroundTint="@color/white"
+        android:drawableStart="@drawable/ic_baseline_smartphone_24"
+        android:hint="@string/mobile_number_10_digits"
+        android:inputType="number"
+        android:maxLength="10"
+        android:maxLines="1"
+        android:padding="10dp"
+        android:textColor="@color/black"
+        android:textColorHint="@color/dark_grey"
+        android:textSize="16sp" />
+
+    <EditText
+        android:id="@+id/edPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edMobileNumber"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="20dp"
+        android:background="@color/white"
+        android:backgroundTint="@color/white"
+        android:drawableStart="@drawable/ic_baseline_lock_24"
+        android:hint="@string/password"
+        android:inputType="textPassword"
+        android:maxLines="1"
+        android:padding="10dp"
+        android:textColor="@color/black"
+        android:textColorHint="@color/dark_grey"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/btnLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edPassword"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="20dp"
+        android:backgroundTint="@color/dark_orange"
+        android:padding="12dp"
+        android:text="@string/login"
+        android:textColor="@color/white"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txtForgetPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnLogin"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:text="@string/forget_password"
+        android:textColor="@color/white"
+        android:textColorHighlight="@color/orange"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/txtSignUp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20dp"
+        android:text="@string/don_t_have_an_account_sign_up_now"
+        android:textColor="@color/white"
+        android:textColorHighlight="@color/orange"
+        android:textSize="14sp" />
+
+</RelativeLayout>

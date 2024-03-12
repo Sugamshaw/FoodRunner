@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/orange"
+    tools:context=".HomePageActivity">
+
+    <TextView
+        android:id="@+id/txtYourName3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="20dp"
+        android:layout_alignParentTop="true"
+        android:background="@color/white"
+        android:backgroundTint="@color/white"
+        android:hint="@string/your_name"
+        android:padding="10dp"
+        android:textColor="@color/black"
+        android:textColorHint="@color/dark_grey"
+        android:textSize="16sp"
+        app:drawableStartCompat="@drawable/ic_baseline_person_24" />
+
+    <TextView
+        android:id="@+id/txtEmailAddress3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginRight="20dp"
+        android:background="@color/white"
+        android:layout_below="@+id/txtYourName3"
+        android:backgroundTint="@color/white"
+        android:hint="@string/email_address"
+        android:padding="10dp"
+        android:textColor="@color/black"
+        android:textColorHint="@color/dark_grey"
+        android:textSize="16sp"
+        app:drawableLeftCompat="@drawable/ic_baseline_email_24" />
+
+    <TextView
+        android:id="@+id/txtMobileNumber3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginRight="20dp"
+        android:background="@color/white"
+        android:layout_below="@+id/txtEmailAddress3"
+        android:backgroundTint="@color/white"
+        android:hint="@string/mobile_number"
+        android:padding="10dp"
+        android:textColor="@color/black"
+        android:textColorHint="@color/dark_grey"
+        android:textSize="16sp"
+        app:drawableLeftCompat="@drawable/ic_baseline_smartphone_24" />
+
+    <TextView
+        android:id="@+id/txtDeliveryAddress3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginRight="20dp"
+        android:background="@color/white"
+        android:layout_below="@+id/txtMobileNumber3"
+        android:backgroundTint="@color/white"
+        android:hint="@string/delivery_address"
+        android:padding="10dp"
+        android:textColor="@color/black"
+        android:textColorHint="@color/dark_grey"
+        android:textSize="16sp"
+        app:drawableLeftCompat="@drawable/ic_baseline_location_on_24" />
+
+    <TextView
+        android:id="@+id/txtPassword3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="12dp"
+        android:background="@color/white"
+        android:layout_below="@+id/txtDeliveryAddress3"
+        android:backgroundTint="@color/white"
+        android:hint="@string/password1"
+        android:padding="10dp"
+        android:textColor="@color/black"
+        android:textColorHint="@color/dark_grey"
+        android:textSize="16sp"
+        app:drawableLeftCompat="@drawable/ic_baseline_lock_24" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtPassword3"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:text="@string/thank_you_visit_again"
+        android:textColor="@color/white"
+        android:textSize="25sp"
+        />
+    <Button
+        android:id="@+id/btnLogOut3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginBottom="30dp"
+        android:layout_marginRight="20dp"
+        android:backgroundTint="@color/dark_orange"
+        android:padding="12dp"
+        android:text="@string/log_out"
+        android:textSize="16sp"
+        android:textColor="@color/white"
+        android:textStyle="bold" />
+</RelativeLayout>

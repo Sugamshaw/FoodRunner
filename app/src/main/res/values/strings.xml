@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">FoodRunner</string>
+    <string name="food_runner">FoodRunner</string>
+    <string name="mobile_number_10_digits">Mobile Number</string>
+    <string name="password">Choose a password</string>
+    <string name="login">Login</string>
+    <string name="forget_password"><u>Forget Password?</u></string>
+    <string name="don_t_have_an_account_sign_up_now"><u>Don\'t have an account?Sign up now</u></string>
+    <string name="register">Register</string>
+    <string name="enter_your_name">Enter your name</string>
+    <string name="email_address">Email Address</string>
+    <string name="delivery_address">Delivery Address</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="register_yourself">Register Yourself</string>
+    <string name="enter_your_resister_mobile_number_and_email_below">Enter your Resister mobile number and email below:</string>
+    <string name="next">Next</string>
+    <string name="your_name">Your name</string>
+    <string name="mobile_number">Mobile number</string>
+    <string name="password1">Password</string>
+    <string name="thank_you_visit_again">Thank You\nVisit Again!!</string>
+    <string name="preference_file">PreferenceFile</string>
+    <string name="log_out">Log Out</string>
+</resources>
